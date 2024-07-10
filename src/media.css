@@ -1,0 +1,224 @@
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 100%;
+    padding: 24px;
+  }
+  .categories .categories-element {
+    display: flex;
+    flex-direction: row;
+    white-space: wrap;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    min-height: 100px;
+  }
+
+  .categories .categories-elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  .categories-title {
+    font-size: 30px !important;
+  }
+
+  .stand-cheaper__elem:not(:last-child) {
+    margin-right: 0;
+    margin-right: 15px;
+  }
+
+  .stand-cheaper__elem {
+    margin-top: 20px;
+  }
+
+  .stand-cheaper__elements {
+    justify-content: space-around;
+  }
+
+  .stand-richer__elem:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .stand-richer__elem {
+    margin-top: 20px;
+  }
+
+  .stand-richer__elements {
+    justify-content: space-around;
+  }
+
+  .categories .categories-element {
+    margin-top: 20px;
+  }
+
+  .rosstat-info__desc br {
+    display: none;
+  }
+  .rosstat-info__desc {
+    font-size: 28px;
+  }
+  .stand-richer__elem,
+  .stand-cheaper__elem {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .graphics {
+    flex-wrap: wrap;
+  }
+  .graphics-elem {
+    margin-right: 32px;
+  }
+
+  .categories .categories-elements {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 60px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  .graphics-elem {
+    margin: 20px 20px !important;
+  }
+
+  .stand-richer__elem,
+  .stand-cheaper__elem {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .categories .categories-elements {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  .categories .categories-elements.section-2 > div:not(:last-child) {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .categories .categories-elements.section-1 > div:not(:last-child) {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .categories .section:last-child {
+    margin-top: 0px;
+  }
+
+  .categories .categories-element {
+    display: flex;
+    font-size: 24px;
+    width: 100%;
+    max-width: none;
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .categories-title {
+    font-size: 32px !important;
+  }
+
+  .main-title {
+    font-size: 44px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .prices-inflation.container.main-title {
+    padding: 24px;
+  }
+
+  .prices-title {
+    font-size: 36px !important;
+  }
+
+  .prices-items__item-percent {
+    font-size: 28px !important;
+  }
+
+  .prices-items {
+    grid-template-columns: 1fr 1fr;
+    display: grid !important;
+    margin: 0 auto;
+  }
+
+  .prices-items__item {
+    margin-right: 0px;
+    margin: 20px;
+  }
+
+  .prices .prices-items {
+    justify-content: flex-start;
+  }
+
+  .stand-cheaper__title,
+  .stand-richer__title {
+    font-size: 26px;
+  }
+
+  .months-elem__inner-text {
+    font-size: 22px;
+  }
+
+  .months {
+    margin-right: 20px;
+  }
+
+  .graphics-elem {
+    margin: 10px 0px;
+  }
+
+  .stand-richer__elem,
+  .stand-cheaper__elem {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .inflation-russia-content__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .decorator-2 {
+    display: none;
+  }
+
+  .inflation-russia.container.main-title {
+    font-size: 30px;
+  }
+
+  .prices-items {
+    display: flex !important;
+  }
+
+  .prices .prices-title {
+    font-size: 30px !important;
+  }
+
+  .rosstat-info__desc {
+    font-size: 24px;
+  }
+
+  .rosstat-info__title {
+    font-size: 36px;
+  }
+}
